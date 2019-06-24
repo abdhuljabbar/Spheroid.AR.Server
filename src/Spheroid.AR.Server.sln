@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spheroid.AR.Primitives", "Spheroid.AR.Primitives\Spheroid.AR.Primitives.csproj", "{3472B4FC-8649-4C98-A2CC-3A43A69FED41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spheroid.AR.Server", "Spheroid.AR.Server\Spheroid.AR.Server.csproj", "{6CEDCABD-3A6F-430A-B695-47627778033C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spheroid.AR.Server.Abstractions", "Spheroid.AR.Server.Abstractions\Spheroid.AR.Server.Abstractions.csproj", "{1EA509CE-867C-491F-8A81-85A4080740C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3472B4FC-8649-4C98-A2CC-3A43A69FED41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3472B4FC-8649-4C98-A2CC-3A43A69FED41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3472B4FC-8649-4C98-A2CC-3A43A69FED41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3472B4FC-8649-4C98-A2CC-3A43A69FED41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEDCABD-3A6F-430A-B695-47627778033C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEDCABD-3A6F-430A-B695-47627778033C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEDCABD-3A6F-430A-B695-47627778033C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEDCABD-3A6F-430A-B695-47627778033C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA509CE-867C-491F-8A81-85A4080740C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA509CE-867C-491F-8A81-85A4080740C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA509CE-867C-491F-8A81-85A4080740C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA509CE-867C-491F-8A81-85A4080740C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF3A901F-1DBC-4628-80DF-69C2E0613E61}
+	EndGlobalSection
+EndGlobal

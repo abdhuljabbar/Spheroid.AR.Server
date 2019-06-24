@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.2</TargetFrameworks>
+    <RootNamespace>Spheroid.AR</RootNamespace>
+    <Version>1.0.0-preview02-014</Version>
+    <Authors>Spheroid Universe</Authors>
+    <Description>Spheroid Universe augmented reality – AR server</Description>
+    <PackageTags>arserver</PackageTags>
+    <PackageProjectUrl>https://github.com/SpheroidUniverse/Spheroid.AR.Server</PackageProjectUrl>
+    <PackageIconUrl>https://cdn.ar.spheroiduniverse.io/public/package-icon-64x64.png</PackageIconUrl>
+    <Copyright>© 2019 Spheroid Universe</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="True" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spheroid.AR.Server.Abstractions\Spheroid.AR.Server.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.2</TargetFrameworks>
+    <RootNamespace>Spheroid.AR</RootNamespace>
+    <Version>1.0.0-preview02-014</Version>
+    <Authors>Spheroid Universe</Authors>
+    <Description>Spheroid Universe augmented reality – AR server abstractions</Description>
+    <PackageTags>arserver</PackageTags>
+    <PackageProjectUrl>https://github.com/SpheroidUniverse/Spheroid.AR.Server</PackageProjectUrl>
+    <PackageIconUrl>https://cdn.ar.spheroiduniverse.io/public/package-icon-64x64.png</PackageIconUrl>
+    <Copyright>© 2019 Spheroid Universe</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="True" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spheroid.Geo.Primitives" Version="1.0.0-preview02-014" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spheroid.AR.Primitives\Spheroid.AR.Primitives.csproj" />
+  </ItemGroup>
+
+</Project>
