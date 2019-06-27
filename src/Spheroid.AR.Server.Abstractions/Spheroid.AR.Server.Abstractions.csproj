@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netcoreapp2.2</TargetFrameworks>
     <RootNamespace>Spheroid.AR</RootNamespace>
-    <Version>1.0.0-preview02-014</Version>
+    <Version>1.0.0-preview02-015</Version>
     <Authors>Spheroid Universe</Authors>
     <Description>Spheroid Universe augmented reality – AR server abstractions</Description>
     <PackageTags>arserver</PackageTags>
